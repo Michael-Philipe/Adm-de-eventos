@@ -1,6 +1,6 @@
-const Party = () => {
+const Wedding = () => {
   return(
-    <div>Party</div>
+    <div>Wedding</div>
   )
 }
-export default Party
+export default Wedding
