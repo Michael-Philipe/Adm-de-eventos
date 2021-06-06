@@ -3,5 +3,21 @@
   flex-wrap: wrap;
   margin: 0 auto;
   max-width: 1300px;
-  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.drinks-container .gif1 {
+  height: 300px;
+  left: 0;
+  top: 450px;
+  position: fixed;
+  z-index: -1;
+}
+
+.drinks-container .gif2 {
+  width: 300px;
+  right: 0;
+  top: 200px;
+  position: fixed;
+  z-index: -1;
 }

@@ -5,6 +5,7 @@ export const DrinkContainer = styled.div`
   width: 300px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-direction: column;
   text-align: center;
   margin: 5px;
@@ -30,8 +31,19 @@ export const DrinkContainer = styled.div`
 
   button {
     height: 30px;
+    width: 80%;
     font-size: 18px;
     cursor: pointer;
+    background-color: transparent;
+    text-transform: capitalize;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-bottom: 8px;
+  }
+
+  button:hover {
+    background-color: purple;
+    color: #fff;
   }
 `;
 
